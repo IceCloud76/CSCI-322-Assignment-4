@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="1DZ-j8-1xy" detailTextLabel="A6s-6Z-tbP" style="IBUITableViewCellStyleSubtitle" id="1Gd-ra-KfM" customClass="PresidentCell" customModule="CSCI_322_Assignment_4" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="1DZ-j8-1xy" detailTextLabel="A6s-6Z-tbP" style="IBUITableViewCellStyleSubtitle" id="1Gd-ra-KfM" customClass="PresidentCell" customModule="CSCI_322_Assignment_4" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Gd-ra-KfM" id="idJ-bY-5jk" customClass="PresidentCell" customModule="CSCI_322_Assignment_4" customModuleProvider="target">
