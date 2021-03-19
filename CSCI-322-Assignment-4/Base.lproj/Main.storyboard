@@ -75,7 +75,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RbV-qh-POW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="RbV-qh-POW">
                                 <rect key="frame" x="20" y="160" width="374" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="XKU-Av-3PG"/>
@@ -89,7 +89,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="WG1-Gw-ks6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
