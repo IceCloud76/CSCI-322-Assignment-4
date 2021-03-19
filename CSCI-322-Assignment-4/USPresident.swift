@@ -10,7 +10,7 @@ import Foundation
 
 class USPresident: Decodable {
     var name = ""
-    var number = ""
+    var number = 0
     var startDate = ""
     var endDate = ""
     var nickname = ""
@@ -27,7 +27,7 @@ class USPresident: Decodable {
 
     }
     
-    init(name: String, number: String, startDate: String, endDate: String, nickname: String, politicalParty: String) {
+    init(name: String, number: Int, startDate: String, endDate: String, nickname: String, politicalParty: String) {
         self.name = name
         self.number = number
         self.startDate = startDate

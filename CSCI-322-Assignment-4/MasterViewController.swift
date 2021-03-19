@@ -10,25 +10,25 @@ import UIKit
 
 class MasterViewController: UITableViewController {
 
-    //var presidents: [USPresident] = []
+    var presidents: [USPresident] = []
+    /*
     var presidents = [
         USPresident(name: "Donald Trump", number: "45", startDate: "Jan 21, 2016", endDate: "Jan 21, 2021", nickname: "The Don", politicalParty: "Republican")
     ]
+    */
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        loadPropertyList()
         
-        //loadPropertyList()
-        /*
         presidents.sort {
-            $0.name < $1.name
+            $0.number < $1.number
         }
-        */
     }
 
-    /*
+    
     func loadPropertyList() {
         guard let path = Bundle.main.path(forResource: "presidents", ofType: "plist"), let xml = FileManager.default.contents(atPath: path) else {
             fatalError("Unable to access property list presidents.plist")
@@ -40,7 +40,7 @@ class MasterViewController: UITableViewController {
             fatalError("Unable to decode property list presidents.plist")
         }
     }
-    */
+    
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
