@@ -32,21 +32,31 @@ class ViewController: UIViewController {
     
     func configureView() {
         // Update user interface with the fields of the detail item
+        let numberFormatter = NumberFormatter()
+        numberFormatter.numberStyle = .ordinal
+        
         
         if let detail = detailItem {
             if let label = nameLabel {
                 label.text = detail.name
             }
             if let label = numberLabel {
-                label.text = String(detail.number)
+                //label.text = String(detail.number)
+                let formatted = numberFormatter.string(from: NSNumber(value: detail.number))
+                label.text = formatted! + " President of the United States"
+                //label.sizeToFit()
+
             }
             if let label = timeTableLabel {
-                label.text = detail.startDate
+                label.text = "(" + String(detail.startDate) + " to " + String(detail.endDate) + ")"
             }
             if let label = nicknameLabel {
                 label.text = detail.nickname
             }
 
+            if let label = partyLabel {
+                label.text = detail.politicalParty
+            }
         }
     }
 
