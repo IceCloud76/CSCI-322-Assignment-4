@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Characters-->
+        <!--Presidents-->
         <scene sceneID="MUS-Zv-Y7u">
             <objects>
                 <tableViewController id="iPS-B1-LOU" customClass="MasterViewController" customModule="CSCI_322_Assignment_4" customModuleProvider="target" sceneMemberID="viewController">
@@ -43,6 +43,7 @@
                                 <connections>
                                     <outlet property="nameLabel" destination="1DZ-j8-1xy" id="2WI-CJ-aNI"/>
                                     <outlet property="politicalPartyLabel" destination="A6s-6Z-tbP" id="XNF-UO-D05"/>
+                                    <segue destination="NdQ-Tg-HfT" kind="show" id="oSo-MP-Ox7"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -51,26 +52,27 @@
                             <outlet property="delegate" destination="iPS-B1-LOU" id="csC-c9-I4y"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Characters" id="qOh-sO-WVc"/>
+                    <navigationItem key="navigationItem" title="Presidents" id="qOh-sO-WVc"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mnq-EV-cZ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-536" y="125"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="e3S-OU-TRH">
+        <scene sceneID="pa1-RV-e5H">
             <objects>
-                <viewController id="A77-dq-TCs" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="olM-md-nGM">
+                <viewController id="NdQ-Tg-HfT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="X34-Zy-ivY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="8rH-Ei-eBz"/>
+                        <viewLayoutGuide key="safeArea" id="AeA-AU-yTG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="I3G-JR-QqM"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xXl-1z-asR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D0z-wh-6A3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="333" y="125"/>
+            <point key="canvasLocation" x="175" y="125"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c0p-f4-wan">
