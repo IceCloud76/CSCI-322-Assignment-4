@@ -13,12 +13,37 @@ class PresidentCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var politicalPartyLabel: UILabel!
     
+    /**
+         # awakeFromNib
     
+            calls super.awakeFromNib
+                I honestly don't remember exactly what this does, except that McMahon said we needed it
+    
+          **Parameters:** None
+    
+           **Returns:** Nothing
+    
+            **Notes:**
+    
+         */
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
+    /**
+         # setSelected
+    
+            calls super.setSelected
+               This enables some animations among other things
+    
+          **Parameters:** two bools
+    
+           **Returns:** Nothing
+    
+            **Notes:**
+    
+         */
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

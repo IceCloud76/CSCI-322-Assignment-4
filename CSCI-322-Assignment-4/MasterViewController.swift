@@ -28,7 +28,18 @@ class MasterViewController: UITableViewController {
         }
     }
 
+    /**
+         # loadPropertyList
     
+         This function tries to access the presidents.plist file and decypt it
+    
+          **Parameters:** None
+    
+           **Returns:** Nothing
+    
+            **Notes:**
+    
+         */
     func loadPropertyList() {
         guard let path = Bundle.main.path(forResource: "presidents", ofType: "plist"), let xml = FileManager.default.contents(atPath: path) else {
             fatalError("Unable to access property list presidents.plist")
@@ -41,14 +52,52 @@ class MasterViewController: UITableViewController {
         }
     }
     
+    /**
+         # numberOfSelections
     
+            The amount of selections that the user can make
+    
+          **Parameters:** A UITableView object
+    
+           **Returns:** an Int (1)
+    
+            **Notes:**
+    
+         */
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
 
+    /**
+         # tableView
+    
+         Passes the tableview an int which can be used to determine how many cells to create
+    
+          **Parameters:** A UITableView object, and an int, as numberOfRowsInSelection
+    
+           **Returns:** an Int
+    
+            **Notes:**
+    
+         */
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return presidents.count
     }
+ 
+   
+    /**
+         # tableView
+    
+         Configures cell previews with the president's name and political party
+    
+          **Parameters:** A UITableView object, and an index path
+    
+           **Returns:** PresidentCell object
+    
+            **Notes:**
+    
+         */
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! PresidentCell
@@ -60,6 +109,18 @@ class MasterViewController: UITableViewController {
 
         return cell
     }
+    /**
+         # tableView
+    
+            Pass the selected object to the new view controller
+    
+          **Parameters:** A UIStoryboardSegue object
+    
+           **Returns:** Nothing
+    
+            **Notes:**
+    
+         */
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

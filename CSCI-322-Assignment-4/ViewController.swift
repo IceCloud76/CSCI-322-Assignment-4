@@ -24,12 +24,33 @@ class ViewController: UIViewController {
         configureView()
     }
 
+    /**
+         # detailItem
+    
+         Creates a variable called detailItem which is type of a USPresident
+    
+            **Notes:**
+    
+         */
     var detailItem: USPresident? {
         didSet {
             configureView()
         }
     }
+  
     
+    /**
+         # configureView
+    
+         This function sets the labels in ViewController to be more presentable
+    
+          **Parameters:** None
+    
+           **Returns:** Nothing
+    
+            **Notes:**
+    
+         */
     func configureView() {
         // Update user interface with the fields of the detail item
         let numberFormatter = NumberFormatter()

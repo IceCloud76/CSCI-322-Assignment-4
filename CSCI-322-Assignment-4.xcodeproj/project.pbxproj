@@ -32,7 +32,6 @@
 		07C57C302605362200FCCB6C /* flag-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C57C212605362200FCCB6C /* flag-40@2x.png */; };
 		07C57C312605362200FCCB6C /* flag-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C57C222605362200FCCB6C /* flag-29.png */; };
 		07C57C342605362C00FCCB6C /* seal.png in Resources */ = {isa = PBXBuildFile; fileRef = 07C57C332605362C00FCCB6C /* seal.png */; };
-		07C57C3B2605386F00FCCB6C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C57C3A2605386F00FCCB6C /* DetailViewController.swift */; };
 		07EF40EB2602A680004FE03D /* PresidentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EF40EA2602A680004FE03D /* PresidentCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +63,6 @@
 		07C57C212605362200FCCB6C /* flag-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flag-40@2x.png"; path = "CSCI-322-Assignment-4/Assignment 4 Resources/flag-40@2x.png"; sourceTree = SOURCE_ROOT; };
 		07C57C222605362200FCCB6C /* flag-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flag-29.png"; path = "CSCI-322-Assignment-4/Assignment 4 Resources/flag-29.png"; sourceTree = SOURCE_ROOT; };
 		07C57C332605362C00FCCB6C /* seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seal.png; path = "CSCI-322-Assignment-4/Assignment 4 Resources/seal.png"; sourceTree = SOURCE_ROOT; };
-		07C57C3A2605386F00FCCB6C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		07EF40EA2602A680004FE03D /* PresidentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +108,6 @@
 				0757D4E426028FF800C41BD5 /* MasterViewController.swift */,
 				0757D4EA2602941C00C41BD5 /* USPresident.swift */,
 				07EF40EA2602A680004FE03D /* PresidentCell.swift */,
-				07C57C3A2605386F00FCCB6C /* DetailViewController.swift */,
 			);
 			path = "CSCI-322-Assignment-4";
 			sourceTree = "<group>";
@@ -231,7 +228,6 @@
 				0757D4D02600544400C41BD5 /* ViewController.swift in Sources */,
 				0757D4CC2600544400C41BD5 /* AppDelegate.swift in Sources */,
 				0757D4CE2600544400C41BD5 /* SceneDelegate.swift in Sources */,
-				07C57C3B2605386F00FCCB6C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
