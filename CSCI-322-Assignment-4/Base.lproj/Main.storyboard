@@ -94,10 +94,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seal.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sdh-BE-bTt">
-                                <rect key="frame" x="20" y="229" width="374" height="428"/>
+                                <rect key="frame" x="20" y="229" width="374" height="478"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nickname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krq-aq-R6b">
-                                <rect key="frame" x="20" y="665" width="374" height="21"/>
+                                <rect key="frame" x="20" y="715" width="374" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="f4Z-pf-Coj"/>
                                 </constraints>
@@ -105,8 +105,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iap-mA-TJ5">
-                                <rect key="frame" x="20" y="717" width="374" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Iap-mA-TJ5">
+                                <rect key="frame" x="20" y="746" width="374" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="P23-8h-4hp"/>
                                 </constraints>
@@ -124,7 +124,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Political Party" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsS-EZ-IAY">
-                                <rect key="frame" x="20" y="761" width="374" height="21"/>
+                                <rect key="frame" x="20" y="790" width="374" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="wm6-ez-gv1"/>
                                 </constraints>
@@ -143,8 +143,8 @@
                             <constraint firstItem="krq-aq-R6b" firstAttribute="leading" secondItem="Iap-mA-TJ5" secondAttribute="leading" id="Ava-j1-7FP"/>
                             <constraint firstItem="Sdh-BE-bTt" firstAttribute="leading" secondItem="krq-aq-R6b" secondAttribute="leading" id="CMm-t2-KhX"/>
                             <constraint firstItem="X3C-eh-oFI" firstAttribute="top" secondItem="AeA-AU-yTG" secondAttribute="top" constant="30" id="EwG-nS-ucj"/>
-                            <constraint firstItem="Iap-mA-TJ5" firstAttribute="top" secondItem="krq-aq-R6b" secondAttribute="bottom" constant="31" id="Fqn-KZ-Xlc"/>
-                            <constraint firstItem="EfN-Sn-TEK" firstAttribute="top" secondItem="LsS-EZ-IAY" secondAttribute="bottom" constant="39" id="Gic-3J-D8M"/>
+                            <constraint firstItem="Iap-mA-TJ5" firstAttribute="top" secondItem="krq-aq-R6b" secondAttribute="bottom" constant="10" id="Fqn-KZ-Xlc"/>
+                            <constraint firstItem="EfN-Sn-TEK" firstAttribute="top" secondItem="LsS-EZ-IAY" secondAttribute="bottom" constant="10" id="Gic-3J-D8M"/>
                             <constraint firstItem="RbV-qh-POW" firstAttribute="leading" secondItem="cW3-Tf-Cvk" secondAttribute="leading" id="HdS-j9-lGH"/>
                             <constraint firstItem="cW3-Tf-Cvk" firstAttribute="top" secondItem="RbV-qh-POW" secondAttribute="bottom" constant="19" id="Hex-6q-Wfa"/>
                             <constraint firstItem="Sdh-BE-bTt" firstAttribute="trailing" secondItem="krq-aq-R6b" secondAttribute="trailing" id="Jtm-0N-WAW"/>
