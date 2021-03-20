@@ -58,7 +58,7 @@
             </objects>
             <point key="canvasLocation" x="-536" y="125"/>
         </scene>
-        <!--View Controller-->
+        <!--Details-->
         <scene sceneID="pa1-RV-e5H">
             <objects>
                 <viewController id="NdQ-Tg-HfT" customClass="ViewController" customModule="CSCI_322_Assignment_4" customModuleProvider="target" sceneMemberID="viewController">
@@ -89,7 +89,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="WG1-Gw-ks6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -163,7 +163,7 @@
                             <constraint firstItem="Iap-mA-TJ5" firstAttribute="leading" secondItem="LsS-EZ-IAY" secondAttribute="leading" id="tyD-Ah-fHK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="I3G-JR-QqM"/>
+                    <navigationItem key="navigationItem" title="Details" id="I3G-JR-QqM"/>
                     <connections>
                         <outlet property="nameLabel" destination="X3C-eh-oFI" id="by4-zi-WIG"/>
                         <outlet property="nicknameLabel" destination="Iap-mA-TJ5" id="rB1-qY-W2Y"/>
